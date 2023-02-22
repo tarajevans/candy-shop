@@ -54,7 +54,7 @@ const Drawer = ({ setActive, active}) => {
                 <div className='mt-auto text-black mb-1'>
                     <div className='flex justify-start'>
                         < a className='font-bold text-sm mr-3 flex space-x-2' href="">
-                            <div className='allign-mddle flex flex-col justify-center'>
+                            <div className='align-middle flex flex-col justify-center'>
                                 <Image src='/user-icon-bl.svg' alt='user icon' width={14} height={18} />
                             </div>
                             <div>Login</div>

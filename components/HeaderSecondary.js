@@ -5,12 +5,17 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
- const HeaderMain= () => {
+
+ const HeaderSecondary= () => {
+
+    const router = useRouter()
     const [active, setActive] = useState(false)
+    const pageTitle = router.pathname.slice(1).toUpperCase()
     return (
-    <div className="text-white mb-10 xl:mb-24 h-[757px] md:h-[584px] xl:h-[647px] bg-no-repeat bg-cover md:bg-bottom bg-center font-poppins w-full"
-    style={{backgroundImage: 'url(./header.png)'}}
+    <div className="text-white mb-10 xl:mb-24 h-[257px] md:h-[384px] xl:h-[447px] bg-no-repeat bg-cover md:bg-bottom bg-center font-poppins w-full"
+    style={{backgroundImage: 'url(./bgbg-secondary.png)'}}
     >
 <div className="px-3 md:px-7 w-100 mx-auto xl:w-4/6">
     <div className="flex justify-between md:py-7 bg-custom-red-2">
@@ -73,11 +78,11 @@ import Link from "next/link";
         </div>
     </div>
     <Navbar />
-    <Hero />
+    <div className="text-center text-4xl md:mt-6 xl:text-5xl leading-normal pt-8 pb-3 font-fredoka">{pageTitle}</div>
 </div>
 
     </div>
     )
  }
 
- export default HeaderMain
+ export default HeaderSecondary

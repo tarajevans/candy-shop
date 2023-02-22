@@ -10,7 +10,6 @@ const BurgerMenu = ({ setActive, active}) => {
     onClick={() => setActive(!active)}
     >
         <Image src='/menu-icon.svg' alt='menu-icon' width={22} height={15} />
-    BurgerMenu
     </div>
     )
 }

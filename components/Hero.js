@@ -10,7 +10,7 @@ const Hero =() => {
             </div>
             <div>
                 <a>
-                    <div className="text-black m-9 inline-flex bg-white p-4 rounded-full font-bold px-7">
+                    <div className="text-black mt-9 inline-flex bg-white p-4 rounded-full font-bold px-7">
                         Shop now
                     </div>
                 </a>
