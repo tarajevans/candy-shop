@@ -1,11 +1,11 @@
-import HeaderMain from "@/components/HeaderMain"
-import Footer from "@/components/Footer"
+import Layout from "@/components/Layout"
+import BestSellers from "@/components/BestSellers"
 
 export default function Home() {
   return (
-    <div>
-      <HeaderMain />
-      <Footer />
-    </div>
+
+      <Layout criteria={true}>
+      <BestSellers />
+      </Layout>
   )
 }
