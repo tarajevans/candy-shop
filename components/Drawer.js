@@ -26,7 +26,7 @@ const Drawer = ({ setActive, active}) => {
             <button 
                 type='button' 
                 className='text-gray-400 bg-transparent hover:bg-gray-200 rounded-lg text-sm p-1.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white'
-                onClick={() => setActive(flase)}
+                onClick={() => setActive(false)}
             >
                 <Image src='/cross.svg' alt='cross' width={18} height={18} />
                 <span className='sr-only'>Close menu</span>

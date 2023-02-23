@@ -31,7 +31,7 @@ const Footer = () => {
                     </div>
                     <div className="mt-6 md:mt-0 xl:pl-8">
                         <div className="font-bold text-lg mb-4">Menu</div>
-                        <div className="textxs flex flex-col space-y-2">
+                        <div className="text-xs flex flex-col space-y-2">
                         <Link href="/collection" className="text-black font-semibold">
                             Collection
                         </Link>

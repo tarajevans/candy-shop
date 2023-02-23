@@ -42,7 +42,11 @@ import { useRouter } from "next/router";
         </div>
         <div>
             <Link href=''>
-                <Image src='/logo.png' alt='logo' height={38} width={98} />
+                <Image 
+                src='/logo.png' 
+                alt='logo' 
+                height={38} 
+                width={98} />
             </Link>
         </div>
         <div className="flex space-x-3 align-middle">

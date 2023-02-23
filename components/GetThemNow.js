@@ -10,8 +10,8 @@ const GetThemNow = () => {
                 <Image
                 src='/banner-sm.png'
                 alt='get now'
-                width='344'
-                height='490'
+                width={344}
+                height={490}
                 className="mx-auto"
                 />
             </span>
@@ -19,8 +19,8 @@ const GetThemNow = () => {
                 <Image
                 src='/banner-md.png'
                 alt='get now'
-                width='704'
-                height='332'
+                width={704}
+                height={332}
                 className="mx-auto"
                 />
             </span>
@@ -28,8 +28,8 @@ const GetThemNow = () => {
                 <Image
                 src='/banner-lg.png'
                 alt='get now'
-                width='1140'
-                height='400'
+                width={1140}
+                height={400}
                 className="mx-auto"
                 />
             </span>

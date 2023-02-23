@@ -9,7 +9,12 @@ const BurgerMenu = ({ setActive, active}) => {
     aria-controls='drawer-example'
     onClick={() => setActive(!active)}
     >
-        <Image src='/menu-icon.svg' alt='menu-icon' width={22} height={15} />
+        <Image 
+        src='/menu-icon.svg' 
+        alt='menu-icon' 
+        width={22} 
+        height={15} 
+        />
     </div>
     )
 }
