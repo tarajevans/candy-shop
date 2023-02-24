@@ -25,6 +25,4 @@ const Category = () => {
         })}
     </div>
     </>
-
-
 }
