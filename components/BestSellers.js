@@ -17,8 +17,12 @@ const BestSellers = () => {
                         height={20}
                         />
                     </div>
-                    <span className="text-red-500">Best</span> <span className="font-bold text-custom-purple">
-                    Sellers</span>
+                    <span className="text-red-500 font-semibold">
+                        Best
+                    </span> 
+                    <span className="font-semibold text-custom-purple">
+                        Sellers
+                    </span>
                 </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3">
@@ -37,7 +41,7 @@ const BestSellers = () => {
                                 />
 
                             </div>
-                            <div className="mt-2 font-fredoka text-xl text-center font-bold text-custom-purple">
+                            <div className="mt-2 font-fredoka text-xl text-center font-semibold text-custom-purple">
                                 {data.title}
                             </div>
                             <div className="text-center text-red-500 text-lg font-bold">
