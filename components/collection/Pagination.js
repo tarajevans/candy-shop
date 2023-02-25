@@ -43,8 +43,8 @@ const Pagination = () => {
                         </div>
                         <div className="h-8 md:h-10 w-8 md:w-10 mr-2 flex justify-center items-center rounded-full bg-custom cursor-pointer">
                             <Image 
-                                src='/chevron-double-right' 
-                                alt='arrow'
+                                src='/arrows-expand' 
+                                alt='arrows'
                                 width={20} 
                                 height={20}
                             />
