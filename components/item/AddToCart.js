@@ -58,10 +58,10 @@ const AddToCart = () => {
             <select 
                 className='bg-custom form-select w-[90px] rounded-full appearance-none block px-3 py-[4px] text-base text-custom-purple-lite bg-clip-padding bg-no-repeat   border border-solid border-custom-gray transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none'>
                 <option>
-                    Small size
+                    Small
                 </option>
                 <option>
-                    Big size
+                    Big
                 </option>
             </select>
         </div>
@@ -73,7 +73,7 @@ const AddToCart = () => {
                 <div className='flex flex-row h-[31px]'>
                     <button className='bg-custom border-custom-gray border text-color-1 rounded-l-[16px] w-[30px] px-2'
                     onClick={qtyDec}>
-                        <span className='m-auto text-2xl font-thin'>-</span>
+                        <span className='m-auto text-xl font-thin'>-</span>
                     </button>
                     <input 
                         type='text' 
@@ -82,7 +82,7 @@ const AddToCart = () => {
                     </input>
                     <button className='bg-custom border-custom-gray border text-color-1 rounded-r-[16px] w-[30px] px-2'
                     onClick={qtyInc}>
-                        <span className='m-auto text-2xl font-thin'>+</span>
+                        <span className='m-auto text-xl font-thin'>+</span>
                     </button>
                 </div>
             </div>
