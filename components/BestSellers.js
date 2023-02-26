@@ -50,7 +50,7 @@ const BestSellers = () => {
                             <div className="mt-6 text-center">
                                 <Link 
                                 href='' 
-                                className={`${data.btnLayout.textColor} ${data.btnLayout.bgColor} px-6 py-3 text-sm font-semibold rounded-full box-content`}>Watch More
+                                className={`${data.btnLayout.textColor} ${data.btnLayout.bgColor} px-8 py-5 text-sm font-semibold rounded-full box-content`}>Watch More
                                 </Link>
                             </div>
                         </div>

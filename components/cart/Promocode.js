@@ -1,5 +1,5 @@
 const Promocode = () => (
-    <div className="border-2 rounded-2xl border-slate-400 bg-white p-5 mb-3">
+    <div className="border-2 rounded-3xl border-custom-gray bg-white p-5 mb-3">
         <div className="font-fredoka font-semibold font-24 text-custom-purple">
             Promocode
         </div>
@@ -14,7 +14,7 @@ const Promocode = () => (
             </div>
         </div>
         <div className="font-poppins text-custom-purple  text-sm mt-2" />
-        <span className="text-custom-red-2">Sign In</span>{' '}
+        <span className="text-custom-red-2 underline">Sign In</span>{' '}
         <span className="text-custom-purple">to see all rewards</span>
     </div>
 )
