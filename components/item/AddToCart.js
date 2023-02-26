@@ -43,10 +43,10 @@ const AddToCart = () => {
         </div>
         <div className='flex justify-between items-center'>
             <div className='text-sm text-custom-purple-lite'>
-                Availability
+                Availability:
             </div>
             <div className='text-lg text-custom-red-2 font-poppinsbold font-semibold'>
-                Jelly Candy
+                InStock
             </div>
         </div>
         <div className='flex justify-between items-center -mt-1'>
@@ -64,6 +64,43 @@ const AddToCart = () => {
                     Big size
                 </option>
             </select>
+        </div>
+        <div className='flex justify-between items-center -mt-3'>
+            <div className='text-sm text-custom-purple-lite'>
+                Quantity:
+            </div>
+            <div>
+                <div className='flex flex-row h-[31px]'>
+                    <button className='bg-custom border-custom-gray border text-color-1 rounded-l-[16px] w-[30px] px-2'
+                    onClick={qtyDec}>
+                        <span className='m-auto text-2xl font-thin'>-</span>
+                    </button>
+                    <input 
+                        type='text' 
+                        className='p-0 justify-center focus:outline-none w-[30px] text-center bg-white text-black border-custom-gray border-0 border-t border-b font-semibold text-md flex items-center outline-none'
+                        defaultValue={qty}>
+                    </input>
+                    <button className='bg-custom border-custom-gray border text-color-1 rounded-r-[16px] w-[30px] px-2'
+                    onClick={qtyInc}>
+                        <span className='m-auto text-2xl font-thin'>+</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div>
+            <Button 
+                type='button' 
+                className='flex justify-center items-center text-white bg-custom-pink focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-8 py-5 mr-2 dark:bg-blue-700 focus:outline-none dark:focus:ring-blue-800'>
+                    <Image 
+                        src='/bag-icon.svg' 
+                        width={16} 
+                        height={18} 
+                        alt='shopping bag' 
+                    />
+                    <span className='font-poppins text-white pl-2 font-semibold'>
+                        Add to Cart
+                    </span>
+            </Button>        
         </div>
     </div>
 
